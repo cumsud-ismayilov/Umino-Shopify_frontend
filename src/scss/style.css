@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-header .head-top {
+header {
   background-color: #253380;
+}
+header .head-top {
+  border-bottom: 1px solid #00a2c2;
+  padding: 3px;
 }
 header .head-top .container .row .head-contact {
   display: flex;
@@ -74,6 +78,154 @@ header .head-top .container .row .language .english:hover {
 }
 header .head-top .container .row .language .english .bi-chevron-down {
   font-size: 10px;
+}
+header nav .container .row .page-logo {
+  width: 146px;
+  height: 43px;
+}
+header nav .container .row .page-logo a {
+  list-style: none;
+}
+header nav .container .row .page-logo a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+header nav .container .row form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header nav .container .row form .search {
+  color: #555555;
+  font-size: 13px;
+  height: 45px;
+  padding-left: 2.5rem;
+  padding-right: 23rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px 0px 0px 30px;
+  border: none;
+}
+header nav .container .row form .submit {
+  background-color: #00a2c2;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  color: #ffffff;
+  height: 45px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 14px;
+}
+header nav .container .row form .bi-search {
+  color: #555555;
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  font-size: 17px;
+}
+header nav .container .row .nav-left {
+  display: flex;
+  align-items: baseline;
+  gap: 39px;
+  justify-content: center;
+}
+header nav .container .row .nav-left .acount {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+header nav .container .row .nav-left .acount:hover .bi-person {
+  color: #00a2c2;
+}
+header nav .container .row .nav-left .acount .bi-person {
+  color: #ffffff;
+  font-size: 28px;
+  transition: 0.3s ease-in-out;
+}
+header nav .container .row .nav-left .acount .acountorlogin .login {
+  color: #fff;
+  font-size: 12px;
+  filter: opacity(0.5);
+  display: block;
+}
+header nav .container .row .nav-left .acount .acountorlogin .account {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+}
+header nav .container .row .nav-left .heart {
+  position: relative;
+  cursor: pointer;
+}
+header nav .container .row .nav-left .heart:hover .bi-heart {
+  color: #00a2c2;
+}
+header nav .container .row .nav-left .heart .bi-heart {
+  color: #ffffff;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+header nav .container .row .nav-left .heart .zero {
+  color: #fff;
+  font-size: 13px;
+  background-color: #00a2c2;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+header nav .container .row .nav-left .shop {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+header nav .container .row .nav-left .shop:hover .bi-cart {
+  color: #00a2c2;
+}
+header nav .container .row .nav-left .shop .bi-cart {
+  color: #ffffff;
+  font-size: 28px;
+  transition: 0.3s ease-in-out;
+}
+header nav .container .row .nav-left .shop .acountorlogin .login {
+  color: #fff;
+  font-size: 12px;
+  filter: opacity(0.5);
+  display: block;
+}
+header nav .container .row .nav-left .shop .acountorlogin .account {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+}
+header nav .container .row .nav-left .shop .zero1 {
+  color: #fff;
+  font-size: 13px;
+  background-color: #00a2c2;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 15px;
 }
 
 * {
