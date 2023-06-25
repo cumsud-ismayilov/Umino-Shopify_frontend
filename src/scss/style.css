@@ -68,6 +68,7 @@ header .head-top .container .row .language .english {
   align-items: center;
   gap: 5px;
   cursor: pointer;
+  position: relative;
   font-size: 13px;
   color: #ffffff;
   font-weight: 400;
@@ -78,6 +79,31 @@ header .head-top .container .row .language .english:hover {
 }
 header .head-top .container .row .language .english .bi-chevron-down {
   font-size: 10px;
+}
+header .head-top .container .row .language .english .eng-hover {
+  list-style: none;
+  position: absolute;
+  top: 31px;
+  z-index: 9999;
+  left: -51px;
+  transition: 0.3s ease-in-out;
+  display: none;
+  background-color: #ffffff;
+  border-radius: 0 0 5px 5px;
+  padding: 21px 33px;
+}
+header .head-top .container .row .language .english .eng-hover .element1 {
+  color: #555555;
+  padding-top: 3px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  transform: translateX(0px);
+}
+header .head-top .container .row .language .english .eng-hover .element1:hover {
+  transform: translateX(7px);
+}
+header .head-top .container .row .language .english .active {
+  display: block;
 }
 header nav .nav-top .container .row {
   display: flex;

@@ -66,15 +66,49 @@ header {
             align-items: center;
             gap: 5px;
             cursor: pointer;
+            position: relative;
             font-size: 13px;
             color: #ffffff;
             font-weight: 400;
             transition: 0.3s ease-in-out;
             &:hover {
               color: #00a2c2;
+              // .eng-hover{
+              //   display: block;
+              //   transform: translateY(0px);
+              // }
             }
             .bi-chevron-down {
               font-size: 10px;
+            }
+            .eng-hover {
+              list-style: none;
+              position: absolute;
+              top: 31px;
+              z-index: 9999;
+            
+              left: -51px;
+              
+              transition: .3s ease-in-out;
+               display: none;
+              background-color: #ffffff;
+              border-radius: 0 0 5px 5px;
+              padding: 21px 33px;
+           
+              .element1 {
+                color: #555555;
+                padding-top: 3px;
+                cursor: pointer;
+                transition: .3s ease-in-out;
+                transform: translateX(0px);
+                &:hover{
+                  transform: translateX(7px);
+                }
+              }
+            }
+            .active{
+              display: block;
+              
             }
           }
         }
@@ -383,26 +417,25 @@ header {
             gap: 8px;
             justify-content: center;
             cursor: pointer;
-            transition: .3s ease-in-out;
-            &:hover{
-              .bi-clock{
+            transition: 0.3s ease-in-out;
+            &:hover {
+              .bi-clock {
                 color: #00a2c2;
               }
-              h4{
+              h4 {
                 color: #00a2c2;
-               
               }
             }
             .bi-clock {
               color: #111111;
               font-size: 17px;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
             }
             h4 {
               color: #111111;
               font-size: 15px;
               font-weight: 400;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
               margin: 0;
             }
           }
