@@ -415,4 +415,78 @@ header nav .nav-bottom .container .row .recently h4 {
   padding: 0;
   outline: none;
   font-family: "Poppins", sans-serif;
+}
+
+.carousel-inner .carousel-item {
+  height: 440px;
+}
+.carousel-inner .carousel-item img {
+  height: 100%;
+}
+.carousel-inner .carousel-item .carousel-text {
+  position: absolute;
+  z-index: 9999;
+  top: 6rem;
+  left: 9rem;
+}
+.carousel-inner .carousel-item .carousel-text p {
+  color: white;
+  font-size: 41px;
+  margin: 0;
+  font-weight: 600;
+}
+.carousel-inner .carousel-item .carousel-text h2 {
+  color: white;
+  font-size: 41px;
+  margin: 0;
+  font-weight: 600;
+}
+.carousel-inner .carousel-item .carousel-text h4 {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding-top: 11px;
+}
+.carousel-inner .carousel-item .carousel-text h3 {
+  color: black;
+  font-size: 14px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 18px 61px;
+  border-radius: 15px;
+  margin-top: 3rem;
+}
+
+.carousel:hover .carousel-control-prev {
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.carousel:hover .carousel-control-next {
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.carousel .carousel-control-prev {
+  position: absolute;
+  left: -50px;
+  display: none;
+  transition: 0.5s ease-in-out;
+}
+.carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-color: black;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-size: 40% 40%;
+}
+.carousel .carousel-control-next {
+  position: absolute;
+  display: none;
+  right: -50px;
+}
+.carousel .carousel-control-next .carousel-control-next-icon {
+  background-color: black;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-size: 40% 40%;
 }/*# sourceMappingURL=style.css.map */

@@ -6,3 +6,96 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+.carousel-inner{
+    .carousel-item {
+        height: 440px;
+        img{
+            height: 100%;
+        }
+        .carousel-text{
+            position: absolute;
+            z-index: 9999;
+            top: 6rem;
+            left: 9rem;
+            p{
+                color: #ffff;
+                font-size: 41px;
+                margin: 0;
+                font-weight: 600;
+            
+            }
+            h2{
+                color: #ffff;
+                font-size: 41px;
+                margin: 0;
+                font-weight: 600;
+            
+            }
+            h4{
+                color: #ffff;
+                font-size: 15px;
+                margin: 0;
+                padding-top: 11px;
+            
+            }
+            h3{
+                color: black;
+                font-size: 14px;
+                background-color: #fff;
+                display: inline-block;
+                padding: 18px 61px;
+                border-radius: 15px;
+                margin-top: 3rem;
+            }
+        }
+    }
+}
+
+
+.carousel {
+    &:hover{
+        .carousel-control-prev{
+            display: block;
+            transition: .5s ease-in-out;
+            
+
+        }
+       
+        .carousel-control-next{
+            display: block;
+            transition: .5s ease-in-out;
+        }
+    }
+    .carousel-control-prev{
+        position: absolute;
+        left: -50px;
+         display: none;
+         
+
+        transition: .5s ease-in-out;
+        .carousel-control-prev-icon{
+            background-color: black;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background-size: 40% 40%;
+           
+
+        }
+    }
+    .carousel-control-next{
+        position: absolute;
+        display: none;
+        right: -50px;
+        .carousel-control-next-icon{
+            background-color: black;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background-size: 40% 40%;
+        }
+    }
+}
