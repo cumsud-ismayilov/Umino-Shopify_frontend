@@ -7,3 +7,13 @@ if (Item) {
  
      })
 }
+
+
+
+const Input = document.querySelector(".emails");
+if (Input) {
+    Input.addEventListener("click",()=>{
+        console.log("salam");
+        Input.classList.toggle("inputactive")
+    })
+}

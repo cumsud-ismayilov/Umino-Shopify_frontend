@@ -409,6 +409,470 @@ header nav .nav-bottom .container .row .recently h4 {
   margin: 0;
 }
 
+main #inner {
+  padding-top: 3rem;
+}
+main #inner .container .row .deal-text {
+  border-bottom: 1px solid #e5e8ec;
+  margin-bottom: 2rem;
+}
+main #inner .container .row .deal-text p {
+  color: #111111;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+main #inner .container .row .cyber .cyber-img {
+  width: 100%;
+  height: 248px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+main #inner .container .row .cyber .cyber-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  transform: scale(1);
+}
+main #inner .container .row .cyber .cyber-img img:hover {
+  transform: scale(1.1);
+}
+main #inner .container .row .cyber .cyber-text p {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 22px;
+  margin: 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+main #inner .container .row .cyber .cyber-text p:hover {
+  color: #00a2c2;
+}
+main #inner .container .row .cyber .cyber-text h3 {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+main #shopify {
+  border-top: 1px solid #e5e8ec;
+  margin-top: 4rem;
+}
+main #shopify .container .row .fast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-right: 1px solid #e5e8ec;
+  margin-top: 40px;
+}
+main #shopify .container .row .fast .fast-img {
+  width: 36px;
+  height: 36px;
+}
+main #shopify .container .row .fast .fast-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main #shopify .container .row .fast .fast-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+main #shopify .container .row .fast .fast-text p {
+  color: #111111;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+main #shopify .container .row .fast .fast-text h2 {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+}
+main #products .container .row .elements {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+  padding-top: 36px;
+}
+main #products .container .row .elements .product1 .product-img {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+main #products .container .row .elements .product1 .product-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transform: scale(1);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+main #products .container .row .elements .product1 .product-img img:hover {
+  transform: scale(1.1);
+}
+main #products .container .row .elements .product1 .product-text {
+  padding-top: 8px;
+}
+main #products .container .row .elements .product1 .product-text p {
+  color: #111111;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+main #products .container .row .elements .product1 .product-text p:hover {
+  color: #00a2c2;
+}
+main #products .container .row .elements .product1 .product-text h2 {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+footer {
+  background-color: #f1f5f6;
+  border-top: 1px solid #e5e8ec;
+  padding-top: 60px;
+  margin-top: 3rem;
+}
+footer .footone .container .row {
+  border-bottom: 1px solid #e5e8ec;
+  padding-bottom: 5rem;
+}
+footer .footone .container .row .foot-top p {
+  color: #111111;
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+footer .footone .container .row .foot-top .order {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footone .container .row .foot-top .updates {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footone .container .row .foot-top form {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  justify-content: center;
+  padding-top: 28px;
+}
+footer .footone .container .row .foot-top form .emails {
+  font-size: 13px;
+  padding: 12px 17px;
+  border: 1px solid #e5e8ec;
+  color: #555555;
+  border-radius: 30px;
+  height: 50px;
+  width: 424px;
+}
+footer .footone .container .row .foot-top form .inputactive {
+  border: 1px solid #111111;
+}
+footer .footone .container .row .foot-top form .sub {
+  border-radius: 30px;
+  height: 50px;
+  font-size: 13px;
+  padding: 12px 17px;
+  background: #00a2c2;
+  border: 1px solid #00a2c2;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  width: 130px;
+}
+footer .footone .container .row .contact {
+  padding-top: 4rem;
+}
+footer .footone .container .row .contact p {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer .footone .container .row .contact h2 {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 9px;
+}
+footer .footone .container .row .contact h3 {
+  font-size: 29px;
+  color: #00a2c2;
+  cursor: pointer;
+}
+footer .footone .container .row .contact h4 {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin: 0;
+}
+footer .footone .container .row .contact h5 {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 9px;
+}
+footer .footone .container .row .contact .social-media {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding-top: 12px;
+}
+footer .footone .container .row .contact .social-media h6 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6:hover {
+  border: 1px solid #111111;
+}
+footer .footone .container .row .contact .social-media h6 .bi-twitter {
+  color: #555555;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6 .bi-twitter:hover {
+  color: #111111;
+}
+footer .footone .container .row .contact .social-media h6 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6:hover {
+  border: 1px solid #111111;
+}
+footer .footone .container .row .contact .social-media h6 .bi-facebook {
+  color: #555555;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6 .bi-facebook:hover {
+  color: #111111;
+}
+footer .footone .container .row .contact .social-media h6 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6:hover {
+  border: 1px solid #111111;
+}
+footer .footone .container .row .contact .social-media h6 .bi-pinterest {
+  color: #555555;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6 .bi-pinterest:hover {
+  color: #111111;
+}
+footer .footone .container .row .contact .social-media h6 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6:hover {
+  border: 1px solid #111111;
+}
+footer .footone .container .row .contact .social-media h6 .bi-instagram {
+  color: #555555;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6 .bi-instagram:hover {
+  color: #111111;
+}
+footer .footone .container .row .contact .social-media h6 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6:hover {
+  border: 1px solid #111111;
+}
+footer .footone .container .row .contact .social-media h6 .bi-youtube {
+  color: #555555;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6 .bi-youtube:hover {
+  color: #111111;
+}
+footer .footone .container .row .contact .social-media h6 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6:hover {
+  border: 1px solid #111111;
+}
+footer .footone .container .row .contact .social-media h6 .bi-tiktok {
+  color: #555555;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+footer .footone .container .row .contact .social-media h6 .bi-tiktok:hover {
+  color: #111111;
+}
+footer .footone .container .row .company {
+  padding-top: 4rem;
+}
+footer .footone .container .row .company p {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer .footone .container .row .company ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+footer .footone .container .row .company ul li {
+  color: #555555;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  transform: translateX(0px);
+}
+footer .footone .container .row .company ul li:hover {
+  color: #111111;
+  transform: translateX(16px);
+}
+footer .foottwo .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer .foottwo .container .row .footlang {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+footer .foottwo .container .row .footlang .englang {
+  color: #555555;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+footer .foottwo .container .row .footlang .englang .bi-chevron-down {
+  font-size: 12px;
+}
+footer .foottwo .container .row .footlang .unilang {
+  color: #555555;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+footer .foottwo .container .row .footlang .unilang .bi-chevron-down {
+  font-size: 12px;
+}
+footer .foottwo .container .row .reserved {
+  text-align: center;
+}
+footer .foottwo .container .row .reserved p {
+  color: #555555;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+footer .foottwo .container .row .pay-img {
+  width: 100%;
+  height: 30px;
+}
+footer .foottwo .container .row .pay-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
